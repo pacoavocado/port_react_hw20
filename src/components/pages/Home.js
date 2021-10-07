@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       {/* <h1>Home Page</h1> */}
       <p>
-        <img class="homeimg" src="./assets/images/synthwave-cover.jpg"></img>
+        <img class="homeimg" src={process.env.PUBLIC_URL + "/assets/images/synthwave-cover.jpg"}></img>
       </p>
     </div>
   );

@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div class="center">
       {/* <h1>About Page</h1> */}
-      <img class="abtPic" src="./assets/images/avatar (2).jpg" alt="Avatar" />
+      <img class="abtPic" src={process.env.PUBLIC_URL + "/assets/images/avatar (2).jpg"} alt="Avatar" />
       <p id="description">
         He's a super cool dude, that likes to risk it all, and play it close to
         the chest. A time traveler to some, and a prophet to others, he is a
