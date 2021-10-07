@@ -1,24 +1,52 @@
-import React from 'react';
+import React from "react";
 
-export default function Projects() {
+const Projects = () => {
   return (
-    <div>
-      <h1>Projects Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-    </div>
+    
+      <div class="middle">
+        {/* <h1>Projects Page</h1> */}
+        <section id="card1" class="card2">
+          {/* <h3>Fix the Mess!</h3> */}
+          <a href="https://pacoavocado.github.io/hauswerk1/">
+            <img
+              src="assets/images/project_1.png"
+              alt="project-1"
+            />
+          </a>
+        </section>
+
+        <section id="card2" class="card2">
+          {/* <h3>Professional Profile</h3> */}
+          <a href="https://pacoavocado.github.io/die-mappe-hw2/">
+            <img src="assets/images/project_2.png" alt="project-1" />
+          </a>
+        </section>
+        <section id="card3" class="card2">
+          {/* <h3>Password Generator</h3> */}
+          <a href="https://pacoavocado.github.io/das-passwort-03/">
+            <img
+              src="assets/images/project_3.png"
+              alt="project-2"
+            />
+          </a>
+        </section>
+
+        <section id="card4" class="card2">
+          {/* <h3>Timed Quiz App</h3> */}
+          <a href="https://pacoavocado.github.io/das-quiz-hw04/">
+          <img src="assets/images/project_4.png" alt="project-1" />
+          </a>
+        </section>
+
+        <section id="card5" class="card2">
+          {/* <h3>Work Day Planner</h3> */}
+          <a href="https://pacoavocado.github.io/Tagesplaner-hw5/">
+          <img src="assets/images/project_5.png" alt="project-1" />
+          </a>
+        </section>
+      </div>
+ 
   );
-}
+};
+
+export default Projects;

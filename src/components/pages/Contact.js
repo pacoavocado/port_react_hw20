@@ -1,22 +1,16 @@
-import React from 'react';
+import React from "react";
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div class="footer">
+      {/* <h1>Contact Page</h1> */}
+      {/* omg theres all the links just push the button this time */}
+      <a href="tel:=16823860275">CALL</a>
+      <a href="https://github.com/pacoavocado">GitHub</a>
+      <a href="https://www.linkedin.com/in/micah-conn-2b1152175/">Linked-in</a>
+      <a href="mailto:pacoavocado@hotmail.com?subject=From%20Portfolio%20React%20Site?">
+        E-MAIL
+      </a>
     </div>
   );
 }
