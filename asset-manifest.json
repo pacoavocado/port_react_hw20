@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/port_react_hw20/static/js/main.adf4eaa4.chunk.js",
-    "main.js.map": "/port_react_hw20/static/js/main.adf4eaa4.chunk.js.map",
+    "main.js": "/port_react_hw20/static/js/main.11275aa0.chunk.js",
+    "main.js.map": "/port_react_hw20/static/js/main.11275aa0.chunk.js.map",
     "runtime-main.js": "/port_react_hw20/static/js/runtime-main.e615f549.js",
     "runtime-main.js.map": "/port_react_hw20/static/js/runtime-main.e615f549.js.map",
     "static/css/2.de2856d6.chunk.css": "/port_react_hw20/static/css/2.de2856d6.chunk.css",
     "static/js/2.a018f486.chunk.js": "/port_react_hw20/static/js/2.a018f486.chunk.js",
     "static/js/2.a018f486.chunk.js.map": "/port_react_hw20/static/js/2.a018f486.chunk.js.map",
     "index.html": "/port_react_hw20/index.html",
-    "precache-manifest.efb3403c38a32f70bd2625b7680e0e1c.js": "/port_react_hw20/precache-manifest.efb3403c38a32f70bd2625b7680e0e1c.js",
+    "precache-manifest.59f1ff824f3c14c78b1b6ae60420f127.js": "/port_react_hw20/precache-manifest.59f1ff824f3c14c78b1b6ae60420f127.js",
     "service-worker.js": "/port_react_hw20/service-worker.js",
     "static/css/2.de2856d6.chunk.css.map": "/port_react_hw20/static/css/2.de2856d6.chunk.css.map",
     "static/js/2.a018f486.chunk.js.LICENSE.txt": "/port_react_hw20/static/js/2.a018f486.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e615f549.js",
     "static/css/2.de2856d6.chunk.css",
     "static/js/2.a018f486.chunk.js",
-    "static/js/main.adf4eaa4.chunk.js"
+    "static/js/main.11275aa0.chunk.js"
   ]
 }
